@@ -1,0 +1,166 @@
+/*fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* ---------
+Conmebol Copa America 2021
+------------ */
+.first-continar{
+
+    display: flex;
+width: 1347px;
+height: 677px;
+background-color: #2D25A0; 
+}
+.titel{
+    position: absolute;
+width: 485px;
+height: 230px;
+left: 156px;
+top: 207px;
+}
+.titel h1{
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 80px;
+color: #FFFFFF;
+font-weight: 700;
+}
+.banner img{
+    position: absolute;
+    width: 556.01px;
+    height: 438px;
+    left: 600px;
+    top: 153px;
+    padding-left: 120px;
+
+}
+.butten{
+text-decoration: none;
+background-color: #E02C6D;
+padding: 10px 24px;
+color: #FFFFFF;
+}
+.butten:hover{
+    background-color: aqua;
+    color: #000;
+}
+/* top players styles */
+.top-players{
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 210px;
+}
+.players{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-column-gap: 30px;
+grid-row-gap: 27px;
+}
+.top-players{
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: 10px;
+}
+.player .player-banner img{
+    width: 300px;
+    height: 256px;
+}
+.player p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+/* tabel  */
+article{
+    margin-top: 1800px;
+    margin-bottom: 0;
+    margin-left: 717px;
+    margin-right: 156px;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+
+}
+tr, td{
+    border: 2px solid black;
+    padding: 10px;
+}
+.colum h2{
+    color: tomato;
+}
+/* --------- */
+.euro{
+    margin-top: 150px;
+    margin-bottom: 0;
+    margin-left: 77px;
+    margin-right: 156px;
+}
+
+/* ----- */
+
+/*------------------- 
+top player styles 
+-------------------- */
+.lirst-part{
+    margin-top: 50px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-bottom: 63px;
+}
+.logo img{
+    position: static;
+width: 483.87px;
+height: 110px;
+margin: 20px 0px;
+padding-top: 158px;
+}
+.icon{
+    position: static;
+left: 81.18%;
+}
+.icon a{
+    flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+}
+footer{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 24px;
+}
+/* media Queries  */
+
+/*-----------------
+ Mobile Divaice 
+------------------ */
+@media only screen and (max-width:688px) {
+.first-continar{
+    width: 100%;
+
+}
+.players, .article{
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.players, .article{
+    flex-direction: column;
+}
+   
+}
+/*--------------
+    tha end 
+-------------- */
